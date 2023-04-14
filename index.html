@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Pizza Hamao</title>
+
+</head>
+<body>
+	<form>
+		<fieldset>
+		  <legend>Select Your Pizza Size</legend>
+
+		  <input type="radio" id="small" name="size" value="7"> <label for="skillEasy">SMALL</label>
+		  <input type="radio" id="medium" name="size" value="10"><label
+			for="skillIntermidiate">MIDIUM</label>
+		  <input type="radio" id="large" name="size" value="14"><label for="skillHard">LARGE</label>
+		</fieldset>
+	</form>
+
+	<label>Select toppings:</label>
+		<select id="toppings">
+			<option value="0">No toppings</option>
+			<option value="2">One topping</option>
+			<option value="3">Two toppings</option>
+		</select>
+
+	
+	<button type="submit" id="submit">Submit</button>
+	
+	<div id="total">Total: </div> 
+	
+	<script src="main.js"></script>
+</body>
+</html>
